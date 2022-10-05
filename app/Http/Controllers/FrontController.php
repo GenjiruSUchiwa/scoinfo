@@ -10,4 +10,8 @@ class FrontController extends Controller
     {
         return view('front.index');
     }
+    public function home(): View
+    {
+        return view('home.index');
+    }
 }
